@@ -1,0 +1,11 @@
+body { padding: 0; margin: 0; border: 0; height: 100%; width: 100%; font-family: helvetica, sans-serif; }
+
+#container { padding: 0; margin: 0; border: 0; height: 100%; width: 100%; background-color: navy; color: white;  }
+#header { padding: 0; margin: 0; border: 0;  }
+
+
+#formdiv { padding: 0; margin: 0; border: 0; height: 40px; vertical-align: middle; background-color: lightgray; }
+
+#body { padding: 10px; margin: 0; border: 0; width: 100%; min-height: 100%; background-color: lightblue; }
+#table { width: 100%; border: 1pt dotted black; }
+td {width: 33%; padding: 5%;}
