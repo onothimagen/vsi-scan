@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="vsi.js">
+</script>
+    <link rel="stylesheet" type="text/css" href="vsi.css">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>VSI Scan</title>
+  </head>
+  <body onload="doVSI();">
+    <div id="container">
+      <div id="header">
+        <h1>Very Short Introductions: QR Code Creator</h1>
+        <p>Select a title from the form below to generate a QR code
+          strip for the title.</p>
+      </div>
+      <div id="formdiv">
+        <form id="form">
+          <select id="titleSelect" onchange="updatePage(); return
+            false;">
+            <option>Select a title</option>
+          </select>
+        </form>
+      </div>
+      <div id="body">
+        <table id="table">
+          <tbody>
+            <tr id="row">
+              <td id="left"> <a href="" id="coverImageLink"><img
+                    id="coverImage" style="height: 300px;"></a> </td>
+              <td id="middle">
+                <h4>OUP Very Short Introductions</h4>
+                <h3>Now Available for Phone, Table and PC</h3>
+                <h2 id="itemTitle">*</h2>
+                <p>m.veryshortintroductions.com</p>
+              </td>
+              <td id="right"> <a href="" id="qrImageLink"><img
+                    id="qrImage" style="height: 300px;"></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
