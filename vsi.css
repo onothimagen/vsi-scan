@@ -19,32 +19,37 @@ body {
   padding: 0;
   margin: 0;
   border: 0;
+  text-align: center;
 }
 
 #formdiv {
   padding: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
   margin: 0;
   border: 0;
-  height: 40px;
   vertical-align: middle;
+  text-align: center;
   background-color: lightgray;
 }
 
 #body {
   padding: 10px;
-  margin: 0;
+  margin: auto;
   border: 0;
   width: 90%;
-  min-height: 100%;
+  /* min-height: 100%; */
   background-color: lightblue;
 }
 
 #table {
-  width: 100%;
+  width: 95%;
   border: 1pt dotted black;
+  padding: 0;
+  margin: 0;
 }
 
 td {
-  width: 33%;
+  width: 30%;
   padding: 5%;
 }
