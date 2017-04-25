@@ -10,3 +10,5 @@ uses a list of OUP VSI identifiers to
 The HTML page randomly displays a title on load and reloads after 
 [two minutes?] so it could be used on a kiosk display.
 
+Page available at: <a href="http://vsi-scan.relocution.com/">http://vsi-scan.relocution.com/</a>
+
