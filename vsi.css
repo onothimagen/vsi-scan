@@ -1,14 +1,15 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
 body {
-  padding: 0;
-  margin: 0;
-  border: 0;
   font-family: helvetica, sans-serif;
 }
 
 #container {
-  padding: 0;
-  margin: 0;
-  border: 0;
   height: 100%;
   width: 100%;
   background-color: navy;
@@ -16,30 +17,17 @@ body {
 }
 
 #header {
-  padding: 0;
-  margin: 0;
-  border: 0;
   text-align: center;
 }
 
 #formdiv {
-  padding: 0;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  margin: 0;
-  margin-bottom: 10px;
-  border: 0;
   vertical-align: middle;
   text-align: center;
-  background-color: lightgray;
+  background-color: darkgray;
 }
 
 
 #body {
-  padding: auto;
-  margin: auto;
-  border: auto;
-  width: auto;
   /* min-height: 100%; */
   /* background-color: lightblue; */
 }
