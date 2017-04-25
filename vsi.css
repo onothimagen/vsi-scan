@@ -27,6 +27,7 @@ body {
   padding-top: 10px;
   padding-bottom: 5px;
   margin: 0;
+  margin-bottom: 10px;
   border: 0;
   vertical-align: middle;
   text-align: center;
@@ -35,22 +36,24 @@ body {
 
 
 #body {
-  padding: 10px;
+  padding: auto;
   margin: auto;
-  border: 0;
-  width: 90%;
+  border: auto;
+  width: auto;
   /* min-height: 100%; */
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 
 #table {
-  width: 95%;
-  border: 1pt dotted black;
-  padding: 0;
-  margin: 0;
+  width: auto;
+  border: 5pt dotted goldenrod;
+  padding: 20px;
+  margin: 20px;
+  /* background-color: navy; */
 }
 
 td {
   width: 30%;
   padding: 5%;
+  color: gold;
 }
