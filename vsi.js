@@ -41,6 +41,7 @@ function updatePage() {
   itemTitle.innerHTML = titleSelect.options[titleSelect.selectedIndex].innerHTML;
 }
 
+/* vsi-scan Google API key: AIzaSyCp1PWhV5JyNpqd7cpCzhV73lAGwIETrsw */
 
 function makeTitleList() {
   titles = new Array("Accounting",
