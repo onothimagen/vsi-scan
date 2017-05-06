@@ -5,46 +5,48 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <script type="text/javascript" src="vsi.js">
   </script>
+  <link rel="stylesheet" type="text/css" href="simple-grid.css">
   <link rel="stylesheet" type="text/css" href="vsi.css">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <title>VSI Scan: QR Code Strips for OUP Very Short Introductions</title>
 </head>
 
 <body onload="doVSI();">
-  <div id="container">
-    <div id="header">
-      <h1>VSI Scan: QR Code Strips for OUP Very Short Introductions</h1>
-      <p>Select a title from the form below to generate a QR code strip for the title.</p>
+  <div id="container" class="container">
+    <div class="row">
+      <div class="col-12" id="heading">
+        <h1>Very Short Introductions <i>from</i> Oxford University Press</h1>
+      </div>
     </div>
-    <div id="formdiv">
-      <form id="form">
-        <select id="titleSelect" onchange="updatePage(); return
-            false;">
-            <option>Select a title</option>
-          </select>
-      </form>
+
+
+        <div class="row">
+          <div class="col-12" id="formdiv">
+            <p>Select a title from the form below to generate a QR code strip for the title.</p>
+            <form id="form">
+              <select id="titleSelect" onchange="updatePage(); return
+                false;">
+                <option>Select a title</option>
+              </select>
+            </form>
+          </div>
+        </div>
+
+    <div class="row" id="main">
+      <div class="col-4" id="left">
+        <a href="" id="coverImageLink"><img id="coverImage" style="height: 300px;"></a>
+      </div>
+      <div class="col-4" id="middle">
+        <p id="line2">Now Available for Phone, Table and PC:</p>
+
+        <p id="itemTitle">*</p>
+        <p id="shortURL">m.veryshortintroductions.com</p>
+      </div>
+      <div class="col-4" id="right">
+        <a href="" id="qrImageLink"><img id="qrImage" style="height: 300px;"></a>
+      </div>
     </div>
-    <div id="body">
-      <table id="table">
-        <tbody>
-          <tr id="row">
-            <td id="left">
-              <a href="" id="coverImageLink"><img id="coverImage" style="height: 300px;"></a>
-            </td>
-            <td id="middle">
-                <p id="line2">Now Available for Phone, Table and PC:</p>
-              <p id="line1">Oxford University Press<br/>Very Short Introductions</p>
-              <p id="itemTitle">*</p>
-              <p id="shortURL">m.veryshortintroductions.com</p>
-            </td>
-            <td id="right">
-              <a href="" id="qrImageLink"><img id="qrImage" style="height: 300px;"></a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+
   </div>
 </body>
-
 </html>
