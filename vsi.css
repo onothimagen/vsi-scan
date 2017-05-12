@@ -39,12 +39,11 @@ h1, h1 i {
   text-align: center;
 }
 
-#left, #right {
+#left, #right, #middle {
   text-align: center;
   vertical-align: middle;
 }
 
-#middle {}
 
 #coverImage {
   -webkit-box-shadow: 10px 10px 5px #333;
