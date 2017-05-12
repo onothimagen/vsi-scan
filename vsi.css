@@ -33,7 +33,7 @@ h1, h1 i {
     background: linear-gradient(to right, rgb(255, 197, 0), rgb(194, 21, 0));
     border-radius: 20px;
 }
-.sqdiv { width: 250px; height: 250px; padding: auto; margin: auto; border: 0; }
+.sqdiv { width: 250px; height: 250px; padding: auto; margin: auto; border: 0;   background: linear-gradient(to right, rgb(255, 197, 0), rgb(194, 21, 0)); }
 #left, #right {
   text-align: center;
   vertical-align: middle;
