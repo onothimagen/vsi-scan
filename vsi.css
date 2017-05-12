@@ -5,24 +5,34 @@ h1, h1 i {
   color: white;
 }
 
-#heading {
+#heading {}
 
-}
+#formdiv {}
 
-#formdiv {
-  text-align: center;
-  background-color: darkgray;
+#row1 {}
+
+#row2 {}
+
+#row2, #row1, #row3 {
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
 }
 
 #row1 {
-
+  background-color: navy;
 }
 
 #row2 {
-
+  background-color: gray;
 }
 
-
+#row3 {
+  text-align: center;
+  border-width: 5pt;
+  border-style: solid;
+  border-color: goldenrod;
+  background: linear-gradient(to right, rgb(255, 197, 0), rgb(194, 21, 0));
+}
 
 .sqdiv {
   width: 250px;
@@ -32,7 +42,6 @@ h1, h1 i {
   border: 0;
   background: linear-gradient(to right, rgb(255, 197, 0), rgb(194, 21, 0));
   text-align: center;
-
 }
 
 #left, #right {
@@ -76,20 +85,4 @@ h1, h1 i {
 
 #shortURL {
   font-size: 14pt;
-}
-
-#row2, #row1, #row3 {
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-}
-
-#row1 {background-color: navy;}
-#row2 {background-color: gray;}
-#row3 {
-  text-align: center;
-  border-width: 5pt;
-  border-style: solid;
-  border-color: goldenrod;
-  background: linear-gradient(to right, rgb(255, 197, 0), rgb(194, 21, 0));
-  border-radius: 20px;
 }
