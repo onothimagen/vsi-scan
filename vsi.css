@@ -21,9 +21,12 @@ h1, h1 i {
 }
 
 #row1 {
-  background: #005C97;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #005C97;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #363795, #005C97);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #363795, #005C97);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #row4 {
@@ -34,13 +37,10 @@ h1, h1 i {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #eef2f3, #8e9eab);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
 
 #row3 {
   background: linear-gradient(to right, rgb(255, 197, 0), rgb(194, 21, 0));
-
 }
 
 #row2 {
@@ -49,14 +49,12 @@ h1, h1 i {
   border-width: 0pt;
   border-style: solid;
   border-color: goldenrod;
-  background: #c2e59c;
+  background: #fceabb;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+  background: -webkit-linear-gradient(to left, #f8b500, #fceabb);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #64b3f4, #c2e59c);
+  background: linear-gradient(to left, #f8b500, #fceabb);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
   min-height: 300px;
 }
 
@@ -122,4 +120,6 @@ h1, h1 i {
   font-weight: bold;
 }
 
-#ljmulogo { width: 200px; }
+#ljmulogo {
+  width: 200px;
+}
