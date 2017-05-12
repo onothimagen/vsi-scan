@@ -38,7 +38,7 @@ h1, h1 i {
 #row3 {
   margin: 1em;
   text-align: center;
-  border-width: 5pt;
+  border-width: 0pt;
   border-style: solid;
   border-color: goldenrod;
   background: linear-gradient(to right, rgb(255, 197, 0), rgb(194, 21, 0));
