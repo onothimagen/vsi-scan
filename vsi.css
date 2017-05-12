@@ -1,10 +1,4 @@
-body {
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffffff, #abbaab);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+
 
 #container {}
 
@@ -22,6 +16,23 @@ h1, h1 i {
   background-color: darkgray;
 }
 
+#row1{
+  text-align: center;
+  background-color: gray;
+}
+#row2{
+  text-align: center;
+  background-color: gray;
+}
+
+#row3{
+  text-align: center;
+    border-width: 5pt;
+    border-style: solid;
+    border-color: goldenrod;
+    background: linear-gradient(to right, rgb(255, 197, 0), rgb(194, 21, 0));
+    border-radius: 20px;
+}
 
 #left, #right {
   text-align: center;
@@ -38,6 +49,7 @@ h1, h1 i {
 #qrImage {
   -webkit-box-shadow: -10px 10px 5px #333;
   box-shadow: -10px 10px 5px #333;
+  height: 250px;
 }
 
 #line1 {
@@ -64,7 +76,7 @@ h1, h1 i {
   font-size: 14pt;
 }
 
-#formdiv, #heading, #main {
+#formdiv, #heading, #main, #mainrow {
   -webkit-border-radius: 20px;
   border-radius: 20px;
 }

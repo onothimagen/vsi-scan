@@ -8,21 +8,21 @@
   <link rel="stylesheet" type="text/css" href="simple-grid.css">
   <link rel="stylesheet" type="text/css" href="vsi.css">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VSI Scan: QR Code Strips for OUP Very Short Introductions</title>
 </head>
 
 <body onload="doVSI();">
   <div id="container" class="container">
-    <div class="row">
+    <div class="row" id="row1">
       <div class="col-12" id="heading">
         <h1>Very Short Introductions <i>from</i> Oxford University Press</h1>
       </div>
     </div>
 
 
-    <div class="row">
+    <div class="row" id="row2">
       <div class="col-12" id="formdiv">
         <p>Select a title from the list below:</p>
         <form id="form">
@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <div class="row" id="main">
+    <div class="row" id="row3">
       <div class="col-4" id="left">
         <a href="" id="coverImageLink"><img id="coverImage" style="height: 300px;"></a>
       </div>
@@ -45,7 +45,7 @@
         <p id="shortURL">m.veryshortintroductions.com</p>
       </div>
       <div class="col-4" id="right">
-        <a href="" id="qrImageLink"><img id="qrImage" style="height: 300px;"></a>
+        <a href="" id="qrImageLink"><img id="qrImage"/></a>
       </div>
     </div>
 
