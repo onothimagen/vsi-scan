@@ -33,7 +33,7 @@ background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, F
 
 }
 
-#row2 {
+#row4 {
   background-color: gray;
   background: #8e9eab;
   /* fallback for old browsers */
@@ -41,22 +41,21 @@ background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, F
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #eef2f3, #8e9eab);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: #283c86;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
-#row4 {
+#row3 {
   background: #50C9C3;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #96DEDA, #50C9C3);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #96DEDA, #50C9C3);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-#row3 {
+#row2 {
   padding: 1em;
   text-align: center;
   border-width: 0pt;
