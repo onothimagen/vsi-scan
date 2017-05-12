@@ -41,7 +41,7 @@ var shortLink = shortRoot.concat(titleSelect.value.substr(8,13));
   coverImageLink.href = mobileURL;
 
   var qrRoot = 'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=';
-  var qrURL = qrRoot.concat(mobileURL, " class='qr'");
+  var qrURL = qrRoot.concat(shortURL, " class='qr'");
   qrImage.src = qrURL;
   itemTitle.innerHTML = titleSelect.options[titleSelect.selectedIndex].innerHTML;
     shortURL.innerHTML = shortLink;
