@@ -17,10 +17,10 @@ h1, h1 i {
 #row2, #row1, #row3, #row4 {
   -webkit-border-radius: 20px;
   border-radius: 20px;
+  margin: 0.25em;
 }
 
 #row1 {
-  margin: 1em;
   background: #0575E6;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #021B79, #0575E6);
@@ -42,18 +42,6 @@ h1, h1 i {
 
 #row4 {
   margin: 1em;
-  background: #43C6AC;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #191654, #43C6AC);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #191654, #43C6AC);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: #43cea2;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #185a9d, #43cea2);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #185a9d, #43cea2);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: #50C9C3;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #96DEDA, #50C9C3);
@@ -137,5 +125,6 @@ h1, h1 i {
 }
 
 #shortURL {
-  font-size: 14pt; font-weight:bold;
+  font-size: 14pt;
+  font-weight: bold;
 }
