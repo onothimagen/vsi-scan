@@ -85,7 +85,7 @@ h1, h1 i {
   font-size: 14pt;
 }
 
-#formdiv, #heading, #main, #mainrow {
+#row2, #row1, #row3 {
   -webkit-border-radius: 20px;
   border-radius: 20px;
 }
