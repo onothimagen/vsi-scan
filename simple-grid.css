@@ -246,6 +246,14 @@ p {
   .container {
     width: 90%;
 
-   max-width: 66rem; 
+   max-width: 66rem;
+  }
+}
+
+@media only print and (min-width: 60em) { /* 960px */
+  .container {
+    width: 90%;
+
+   max-width: 66rem;
   }
 }
