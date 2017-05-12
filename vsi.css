@@ -6,8 +6,11 @@
 
 #container {}
 
-h1, h1 i {
+h1, h2 {
   text-align: center;
+}
+
+h1, h1 i {
   color: white;
 }
 
@@ -92,7 +95,7 @@ h1, h1 i {
 
 #itemTitle {
   text-transform: capitalize;
-  font-variant: small-caps;
+  /* font-variant: small-caps; */
   font-size: 32pt;
   font-weight: bold;
   text-shadow: 1px 1px 2px #fff;
