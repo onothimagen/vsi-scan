@@ -137,5 +137,5 @@ h1, h1 i {
 }
 
 #shortURL {
-  font-size: 14pt;
+  font-size: 14pt; font-weight:bold;
 }
