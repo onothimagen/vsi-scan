@@ -69,6 +69,8 @@ h1, h1 i {
   vertical-align: middle;
 }
 
+.formdiv { text-align: center; padding: 0.5em; }
+
 #coverImage {
   -webkit-box-shadow: 10px 10px 5px #333;
   box-shadow: 10px 10px 5px #333;
