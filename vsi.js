@@ -32,7 +32,7 @@ function updatePage() {
   coverImage.src = coverURL;
 
 var shortRoot = 'http://ljmu.me/vs';
-var shortLink = shortRoot.concat(titleSelect.value.substr(9,13));
+var shortLink = shortRoot.concat(titleSelect.value.substr(8,13));
 
   var mobileRoot = "http://www.veryshortintroductions.com/mobile/view/10.1093/actrade/";
   var mobileURL = mobileRoot.concat(titleSelect.value, ".001.0001/actrade-", titleSelect.value);
