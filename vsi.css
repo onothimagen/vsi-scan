@@ -12,13 +12,16 @@ h1, h1 i {
 
 #row1 {
   background-color: navy;
+  margin: 1em;
 }
 
 #row2 {
   background-color: gray;
+    margin: 1em;
 }
 
 #row3 {
+    margin: 1em;
   text-align: center;
   border-width: 5pt;
   border-style: solid;
