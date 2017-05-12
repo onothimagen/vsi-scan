@@ -27,7 +27,7 @@ h1, h1 i {
   border-style: solid;
   border-color: goldenrod;
   background: linear-gradient(to right, rgb(255, 197, 0), rgb(194, 21, 0));
-  min-height: 280px;
+  min-height: 300px;
 }
 
 .sqdiv {
