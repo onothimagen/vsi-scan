@@ -24,10 +24,15 @@ function updatePage() {
   var qrImage = document.getElementById("qrImage");
   var qrImageLink = document.getElementById("qrImageLink");
   var itemTitle = document.getElementById("itemTitle");
+  var shortURL = document.getElementById("shortURL");
+
 
   var coverRoot = 'http://www.veryshortintroductions.com/view/covers/';
   var coverURL = coverRoot.concat(titleSelect.value, ".png")
   coverImage.src = coverURL;
+
+var shortRoot = 'http://ljmu.me/vs';
+var shortLink = shortRoot.concat(titleSelect.value.substr(9,13));
 
   var mobileRoot = "http://www.veryshortintroductions.com/mobile/view/10.1093/actrade/";
   var mobileURL = mobileRoot.concat(titleSelect.value, ".001.0001/actrade-", titleSelect.value);
@@ -39,6 +44,7 @@ function updatePage() {
   var qrURL = qrRoot.concat(mobileURL, " class='qr'");
   qrImage.src = qrURL;
   itemTitle.innerHTML = titleSelect.options[titleSelect.selectedIndex].innerHTML;
+    shortURL.innerHTML = shortLink;
 }
 
 /* vsi-scan Google API key: AIzaSyCp1PWhV5JyNpqd7cpCzhV73lAGwIETrsw */
