@@ -76,6 +76,7 @@ h1, h1 i {
   font-size: 32pt;
   font-weight: bold;
   text-shadow: 1px 1px 2px #fff;
+  line-height: 1.5;
 }
 
 #shortURL {
