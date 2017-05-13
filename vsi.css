@@ -126,3 +126,8 @@ h1, h1 i, h2 {
 #ljmulogo {
   width: 250px;
 }
+
+#itemTitleLink:link, #shortURLLink:link,
+#itemTitleLink:visited, #shortURLLink:visited, {
+  text-decoration: none;
+}
