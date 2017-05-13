@@ -23,6 +23,8 @@ function updatePage() {
   var coverImageLink = document.getElementById("coverImageLink");
   var qrImage = document.getElementById("qrImage");
   var qrImageLink = document.getElementById("qrImageLink");
+    var shortURLLink = document.getElementById("shortURLLink");
+      var itemTitleLink = document.getElementById("itemTitleLink");
   var itemTitle = document.getElementById("itemTitle");
   var shortURL = document.getElementById("shortURL");
 
@@ -39,6 +41,8 @@ var shortLink = shortRoot.concat(titleSelect.value.substr(8,13));
 
   qrImageLink.href = shortLink;
   coverImageLink.href = shortLink;
+  shortURLLink.href = shortLink;
+  itemTitleLink.href = shortLink;
 
   var qrRoot = 'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=';
   var qrURL = qrRoot.concat(shortLink, "&class='qr'");
