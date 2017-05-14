@@ -1,6 +1,6 @@
 # vsi-scan
 
-V 0.1 
+V0.1 
 
 Creates pages/posters for OUP Very Short Introductions titles.
 
