@@ -1,0 +1,40 @@
+Help is at
+https://developers.google.com/api-client-library/javascript/start/start-js
+
+
+
+function makeShort(longurl) {
+
+  gapi.client.setApiKey('AIzaSyCp1PWhV5JyNpqd7cpCzhV73lAGwIETrsw');
+  gapi.client.load('urlshortener', 'v1', function() {});
+
+  var request = gapi.client.urlshortener.url.insert({
+    'resource': {
+      'longUrl': longUrl
+    }
+  });
+  var shorturl;
+  request.execute(function(response) {
+
+    if (response.id != null) {
+      shorturl = response.id;
+    } else {
+      shorturl = "ERROR GETTING SHORT URL"
+    }
+
+  });
+}
+
+
+function load() {
+  gapi.client.setApiKey('AIzaSyCp1PWhV5JyNpqd7cpCzhV73lAGwIETrsw');
+  gapi.client.load('urlshortener', 'v1', function() {});
+
+}
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
